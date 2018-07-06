@@ -6,14 +6,14 @@ def fizzbuzz(int)
   fizz = int % 3
   buzz = int % 5
   
-if(fizz == 0 && buzz == 0)
-  return "FizzBuzz"
-elsif(fizz == 0)
-  return "Fizz"
-elsif(buzz == 0)
-  return "Buzz"
-else
-  return NIL
-end
+  if(fizz == 0 && buzz == 0)
+    return "FizzBuzz"
+  elsif(fizz == 0)
+    return "Fizz"
+  elsif(buzz == 0)
+    return "Buzz"
+  else
+    return NIL
+  end
 
 end

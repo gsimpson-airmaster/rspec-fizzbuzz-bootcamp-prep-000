@@ -15,3 +15,5 @@ elsif(buzz == 0)
 else
   return NIL
 end
+
+end
